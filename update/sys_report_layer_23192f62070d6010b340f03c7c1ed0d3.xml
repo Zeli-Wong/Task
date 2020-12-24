@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_layer">
+    <sys_report_layer action="INSERT_OR_UPDATE">
+        <aggregate>SUM</aggregate>
+        <allow_data_label_overlap>true</allow_data_label_overlap>
+        <bar_unstack>false</bar_unstack>
+        <color display_value="NY blue3">6ae12f7b9f5c73001bb9baac757fcf41</color>
+        <color_palette display_value="Blues light to dark (5)">b22671cdd7500200b96d45a3ce6103ee</color_palette>
+        <colors/>
+        <compute_percent>aggregate</compute_percent>
+        <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
+        <field>flow_no</field>
+        <filter/>
+        <import_table/>
+        <interval>year</interval>
+        <list_ui_view/>
+        <report display_value="Flow Real-Hnum">d5882b62070d6010b340f03c7c1ed037</report>
+        <report_source/>
+        <sequence>1</sequence>
+        <series_name_text>Flow Schedule-Hnum</series_name_text>
+        <set_color>one_color</set_color>
+        <show_2nd_y_axis>false</show_2nd_y_axis>
+        <show_chart_data_label>true</show_chart_data_label>
+        <show_data_label_position_middle>false</show_data_label_position_middle>
+        <show_marker>false</show_marker>
+        <source_type>table</source_type>
+        <style_config/>
+        <sumfield>schedule_hnum</sumfield>
+        <sys_class_name>sys_report_layer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-16 07:46:53</sys_created_on>
+        <sys_id>23192f62070d6010b340f03c7c1ed0d3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Flow Schedule-Hnum</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sys_report_layer_23192f62070d6010b340f03c7c1ed0d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-16 08:10:58</sys_updated_on>
+        <table>x_528469_flow_sear_flow_mgnt_info</table>
+        <trend_field/>
+        <type>bar</type>
+        <use_null_in_trend>false</use_null_in_trend>
+        <y_axis_from/>
+        <y_axis_title/>
+        <y_axis_to/>
+    </sys_report_layer>
+</record_update>

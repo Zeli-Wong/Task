@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="タイムアウトFlow記録" max_length="40" name="x_528469_flow_sear_flow" type="collection">
+        <element label="フロー番号" mandatory="true" max_length="8" name="flow_no" type="string"/>
+        <element label="実際工数" mandatory="true" max_length="15" name="real_hnum" type="decimal"/>
+        <element label="メールアドレス" max_length="100" name="regist_mail" type="string"/>
+        <element label="登録者名" max_length="30" name="regist_user_name" type="string"/>
+        <element label="予定工数" mandatory="true" max_length="15" name="schedule_hnum" type="decimal"/>
+        <index name="index">
+            <element name="flow_no"/>
+        </index>
+    </element>
+</database>

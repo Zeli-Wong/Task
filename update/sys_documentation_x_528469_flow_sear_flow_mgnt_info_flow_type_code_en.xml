@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="flow_type_code" label="フロー分類コード" language="en" table="x_528469_flow_sear_flow_mgnt_info">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>flow_type_code</element>
+            <help/>
+            <hint/>
+            <label>フロー分類コード</label>
+            <language>en</language>
+            <name>x_528469_flow_sear_flow_mgnt_info</name>
+            <plural>フロー分類コードs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-10 02:40:28</sys_created_on>
+            <sys_id>a079ef60074d2010b340f03c7c1ed05d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>フロー分類コード</sys_name>
+            <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+            <sys_update_name>sys_documentation_x_528469_flow_sear_flow_mgnt_info_flow_type_code_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-14 03:40:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

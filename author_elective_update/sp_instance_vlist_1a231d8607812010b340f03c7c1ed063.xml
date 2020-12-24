@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>number</display_field>
+        <field_list/>
+        <filter/>
+        <glyph>th-list</glyph>
+        <id/>
+        <maximum_entries>12</maximum_entries>
+        <order>16</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">cdd0e8f007cd2010b340f03c7c1ed07a</sp_column>
+        <sp_page display_value="ticket">84af292247132100ba13a5554ee4909e</sp_page>
+        <sp_widget display_value="Search Flow">e8d21d8207812010b340f03c7c1ed015</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-14 07:34:44</sys_created_on>
+        <sys_id>1a231d8607812010b340f03c7c1ed063</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sp_instance_vlist_1a231d8607812010b340f03c7c1ed063</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-14 08:44:12</sys_updated_on>
+        <table>x_528469_flow_sear_flow_mgnt_info</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "flow_type_name,flow_status,flow_summary,fun_id,regist_user_name,end_date,schedule_hnum,real_hnum",
+		"displayValue": "flow_type_name,flow_status,flow_summary,fun_id,regist_user_name,end_date,schedule_hnum,real_hnum"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=1a231d8607812010b340f03c7c1ed063"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</application>
+        <file_path/>
+        <instance_id>2db8ff30dbf4378007072f17d496195c</instance_id>
+        <instance_name>dev80391</instance_name>
+        <name>sp_instance_vlist_1a231d8607812010b340f03c7c1ed063</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;&lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;display_field&gt;number&lt;/display_field&gt;&lt;field_list/&gt;&lt;filter/&gt;&lt;glyph&gt;th-list&lt;/glyph&gt;&lt;id/&gt;&lt;maximum_entries&gt;12&lt;/maximum_entries&gt;&lt;order&gt;16&lt;/order&gt;&lt;order_by/&gt;&lt;order_direction&gt;asc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;cdd0e8f007cd2010b340f03c7c1ed07a&lt;/sp_column&gt;&lt;sp_page display_value="ticket"&gt;84af292247132100ba13a5554ee4909e&lt;/sp_page&gt;&lt;sp_widget display_value="Search Flow"&gt;e8d21d8207812010b340f03c7c1ed015&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-14 07:34:44&lt;/sys_created_on&gt;&lt;sys_id&gt;1a231d8607812010b340f03c7c1ed063&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Flow Search" source="x_528469_flow_sear"&gt;08c3af6407c92010b340f03c7c1ed0ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Flow Search"&gt;08c3af6407c92010b340f03c7c1ed0ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_vlist_1a231d8607812010b340f03c7c1ed063&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-14 08:44:12&lt;/sys_updated_on&gt;&lt;table&gt;x_528469_flow_sear_flow_mgnt_info&lt;/table&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "flow_type_name,flow_status,flow_summary,fun_id,regist_user_name,end_date,schedule_hnum,real_hnum",
+		"displayValue": "flow_type_name,flow_status,flow_summary,fun_id,regist_user_name,end_date,schedule_hnum,real_hnum"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_vlist&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1a231d8607812010b340f03c7c1ed063"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>788489109</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>5cc3af6407c92010b340f03c7c1ed0b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-14 08:44:12</sys_created_on>
+        <sys_id>7703e90207c12010b340f03c7c1ed0a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176606be56a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-14 08:44:12</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>bf03e902a0c120100635e8d738c9a09f</update_guid>
+        <update_guid_history>bf03e902a0c120100635e8d738c9a09f:788489109,376061cec481201020d893cf318ee487:-715993196,a584d5c619812010fd864756ba381b71:2074491795,d3041986d281201087ac9d90e67dcce6:2051851314,de231d8619812010e2ba4be65521a264:-720640918</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">76132d0207c12010b340f03c7c1ed049</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-14 08:44:24</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>0e0b080fc82f43db9e36d01b9d2874a9</sys_id>
+        <sys_metadata>1a231d8607812010b340f03c7c1ed063</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_scope_delete display_value="">c2be16949d234586909491e1b4895dc4</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_1a231d8607812010b340f03c7c1ed063</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_1a231d8607812010b340f03c7c1ed063">7703e90207c12010b340f03c7c1ed0a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-14 08:44:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

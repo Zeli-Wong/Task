@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" label="フロー管理情報" max_length="40" name="x_528469_flow_sear_flow_mgnt_info" type="collection">
+        <element label="締切日付" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="フロー番号" mandatory="true" max_length="8" name="flow_no" type="string"/>
+        <element choice="1" label="フロー状態" mandatory="true" max_length="40" name="flow_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="作業中" sequence="0" value="11"/>
+                <element inactive_on_update="false" label="ﾍﾟﾝﾃﾞｨﾝｸﾞﾀｽｸ有り" sequence="1" value="12"/>
+                <element inactive_on_update="false" label="作業完了" sequence="2" value="13"/>
+                <element inactive_on_update="false" label="承認済み" sequence="3" value="14"/>
+            </choice>
+        </element>
+        <element label="フロー概要" mandatory="true" max_length="1000" name="flow_summary" type="string"/>
+        <element label="フロー分類コード" mandatory="true" max_length="4" name="flow_type_code" type="string"/>
+        <element label="フロー分類名称" mandatory="true" max_length="100" name="flow_type_name" type="string"/>
+        <element label="機能ID" max_length="40" name="fun_id" type="string"/>
+        <element label="実際工数" max_length="15" name="real_hnum" type="decimal"/>
+        <element label="承認者" max_length="32" name="recognition_user_id" reference="sys_user" type="reference"/>
+        <element label="メールアドレス" max_length="100" name="regist_mail" type="string"/>
+        <element label="登録者ID" max_length="30" name="regist_user_id" type="string"/>
+        <element label="登録者名" max_length="30" name="regist_user_name" type="string"/>
+        <element label="予定工数" max_length="15" name="schedule_hnum" type="decimal"/>
+        <element default="0" label="リマインダ" max_length="1" name="timeout_reminder_flag" type="string"/>
+        <index name="index">
+            <element name="recognition_user_id"/>
+        </index>
+    </element>
+</database>

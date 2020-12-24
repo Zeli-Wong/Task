@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="flow_status" table="x_528469_flow_sear_flow_mgnt_info" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>flow_status</element>
+            <name>x_528469_flow_sear_flow_mgnt_info</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-10 03:22:15</sys_created_on>
+            <sys_id>fc033328074d2010b340f03c7c1ed058</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>flow_status</sys_name>
+            <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+            <sys_update_name>sys_choice_x_528469_flow_sear_flow_mgnt_info_flow_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-10 03:22:15</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>flow_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>作業中</label>
+            <language>en</language>
+            <name>x_528469_flow_sear_flow_mgnt_info</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-10 03:22:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4033328074d2010b340f03c7c1ed058</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-10 03:22:15</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>flow_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ﾍﾟﾝﾃﾞｨﾝｸﾞﾀｽｸ有り</label>
+            <language>en</language>
+            <name>x_528469_flow_sear_flow_mgnt_info</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-10 03:22:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c033328074d2010b340f03c7c1ed05a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-10 03:22:16</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>flow_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>作業完了</label>
+            <language>en</language>
+            <name>x_528469_flow_sear_flow_mgnt_info</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-10 03:22:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc033328074d2010b340f03c7c1ed05b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-10 03:22:16</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>flow_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>承認済み</label>
+            <language>en</language>
+            <name>x_528469_flow_sear_flow_mgnt_info</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-10 03:22:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>30033328074d2010b340f03c7c1ed05d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-10 03:22:16</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

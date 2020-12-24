@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_source">
+    <sys_report_source action="INSERT_OR_UPDATE">
+        <description/>
+        <display>Flow Over Schedule-Hnum (フロー管理情報)</display>
+        <filter table="x_528469_flow_sear_flow_mgnt_info">schedule_hnumLT_FIELDreal_hnum<item endquery="false" field="schedule_hnum" goto="false" newquery="false" operator="LT_FIELD" or="false" value="real_hnum"/>
+        </filter>
+        <name>Flow Over Schedule-Hnum</name>
+        <sys_class_name>sys_report_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-16 07:54:42</sys_created_on>
+        <sys_id>ccaaa7e2070d6010b340f03c7c1ed049</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Flow Over Schedule-Hnum (フロー管理情報)</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sys_report_source_ccaaa7e2070d6010b340f03c7c1ed049</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-16 07:54:42</sys_updated_on>
+        <table>x_528469_flow_sear_flow_mgnt_info</table>
+    </sys_report_source>
+</record_update>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_528469_flow_sear_flow_mgnt_info</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Timeout flow record retrieval</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	//获取表中的 flow_no
+	var flow_no = current.flow_no;
+	//获取表中的预定工数
+	var schedule_hnum = current.schedule_hnum;
+	//获取表中的实际工数
+	var real_hnum = current.real_hnum;
+	//获取表中的リマインダ
+	var timeout_reminder_flag = current.timeout_reminder_flag;
+	//获取表中的作成者名
+	var regist_user_name = current.regist_user_name;
+	//获取表中的作成者mail
+	var regist_mail = current.regist_mail;
+	
+	//实例化表タイムアウトFlow記録
+	var overtimerecord = new GlideRecord('x_528469_flow_sear_flow');
+	//查询表中是否已有本条记录
+	overtimerecord.addQuery('flow_no',flow_no);
+	overtimerecord.query();
+	
+	//根据条件判断是否需要加入记录
+	if((schedule_hnum != null) && (real_hnum != null) && (timeout_reminder_flag = "0") && (schedule_hnum < real_hnum)){
+		//验证 record 中是否有记录
+		if(overtimerecord.next()){
+			//有的话就更新本条记录
+			//预定工数
+			overtimerecord.setValue('schedule_hnum',schedule_hnum);
+			//实际工数
+			overtimerecord.setValue('real_hnum',real_hnum);
+			//作成者名
+			overtimerecord.setValue('regist_user_name',regist_user_name);
+			//作成者mail
+			overtimerecord.setValue('regist_mail',regist_mail);
+			overtimerecord.update();
+		} else {
+			//没有的话就插入本条记录
+			overtimerecord.initialize();
+			//flow_no
+			overtimerecord.setValue('flow_no',flow_no);
+			//预定工数
+			overtimerecord.setValue('schedule_hnum',schedule_hnum);
+			//实际工数
+			overtimerecord.setValue('real_hnum',real_hnum);
+			//作成者名
+			overtimerecord.setValue('regist_user_name',regist_user_name);
+			//作成者mail
+			overtimerecord.setValue('regist_mail',regist_mail);
+			overtimerecord.insert();
+		}
+	} else {
+		if(overtimerecord.next()){
+			//有的话就删除本条记录
+			overtimerecord.deleteRecord();
+		}
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-23 03:36:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9809e2b407596010b340f03c7c1ed091</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Timeout flow record retrieval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sys_script_9809e2b407596010b340f03c7c1ed091</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-23 06:45:43</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=9809e2b407596010b340f03c7c1ed091"/>
+</record_update>
