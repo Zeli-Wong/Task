@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>search</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1c5170190719a010b340f03c7c1ed036</sp_column>
+        <sp_page display_value="flow_search">ce84f4990719a010b340f03c7c1ed08c</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-24 07:27:22</sys_created_on>
+        <sys_id>7f5174d50719a010b340f03c7c1ed0d6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>フロー検索</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sp_instance_link_7f5174d50719a010b340f03c7c1ed0d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-24 08:06:44</sys_updated_on>
+        <title>フロー検索</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": "-- None --"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=7f5174d50719a010b340f03c7c1ed0d6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</application>
+        <file_path/>
+        <instance_id>2db8ff30dbf4378007072f17d496195c</instance_id>
+        <instance_name>dev80391</instance_name>
+        <name>sp_instance_link_7f5174d50719a010b340f03c7c1ed0d6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;search&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;1c5170190719a010b340f03c7c1ed036&lt;/sp_column&gt;&lt;sp_page display_value="flow_search"&gt;ce84f4990719a010b340f03c7c1ed08c&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-24 07:27:22&lt;/sys_created_on&gt;&lt;sys_id&gt;7f5174d50719a010b340f03c7c1ed0d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;フロー検索&lt;/sys_name&gt;&lt;sys_package display_value="Flow Search" source="x_528469_flow_sear"&gt;08c3af6407c92010b340f03c7c1ed0ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Flow Search"&gt;08c3af6407c92010b340f03c7c1ed0ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_7f5174d50719a010b340f03c7c1ed0d6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-24 08:06:44&lt;/sys_updated_on&gt;&lt;title&gt;フロー検索&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": "-- None --"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7f5174d50719a010b340f03c7c1ed0d6"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1993076412</payload_hash>
+        <record_name>フロー検索</record_name>
+        <reverted_from/>
+        <source>5cc3af6407c92010b340f03c7c1ed0b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-24 08:06:44</sys_created_on>
+        <sys_id>a86ab0dd0719a010b340f03c7c1ed06f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17693c931a00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-24 08:06:44</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>e06ab0dd3019a010b3df27d93b06966f</update_guid>
+        <update_guid_history>e06ab0dd3019a010b3df27d93b06966f:-1993076412,fa0a7c9db019a01010ef11a963c25ceb:866451334,a2e9b89d8719a0100f05cd5b3367a75e:772001382,c4d9fc5d5819a01089c09acc6f86ba83:-1856406876,5e67fc1d3719a010cf1710b093e2981a:-1407121763,f927781dde19a01012357ce88fc7b581:-1941504306,fb5174d5cd19a010572e97ca6695fad8:-385704295</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="フロー検索">09a58d190759a010b340f03c7c1ed08b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-24 08:55:56</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>65d9be2a9b0349dfaeb655d1bf5914d9</sys_id>
+        <sys_metadata>7f5174d50719a010b340f03c7c1ed0d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>フロー検索</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_scope_delete display_value="">c2be16949d234586909491e1b4895dc4</sys_scope_delete>
+        <sys_update_name>sp_instance_link_7f5174d50719a010b340f03c7c1ed0d6</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_7f5174d50719a010b340f03c7c1ed0d6">a86ab0dd0719a010b340f03c7c1ed06f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-24 08:55:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

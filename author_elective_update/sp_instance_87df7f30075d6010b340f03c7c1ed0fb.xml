@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">876ec36e07896010b340f03c7c1ed003</sp_column>
+        <sp_widget/>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-23 09:12:34</sys_created_on>
+        <sys_id>87df7f30075d6010b340f03c7c1ed0fb</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>My Approvals</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sp_instance_87df7f30075d6010b340f03c7c1ed0fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-23 09:31:41</sys_updated_on>
+        <title>My Approvals</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "My Approvals",
+		"displayValue": "My Approvals"
+	},
+	"maximum_records_to_display": {
+		"value": "",
+		"displayValue": "-- None --"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=87df7f30075d6010b340f03c7c1ed0fb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</application>
+        <file_path/>
+        <instance_id>2db8ff30dbf4378007072f17d496195c</instance_id>
+        <instance_name>dev80391</instance_name>
+        <name>sp_instance_87df7f30075d6010b340f03c7c1ed0fb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;876ec36e07896010b340f03c7c1ed003&lt;/sp_column&gt;&lt;sp_widget/&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-23 09:12:34&lt;/sys_created_on&gt;&lt;sys_id&gt;87df7f30075d6010b340f03c7c1ed0fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Approvals&lt;/sys_name&gt;&lt;sys_package display_value="Flow Search" source="x_528469_flow_sear"&gt;08c3af6407c92010b340f03c7c1ed0ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Flow Search"&gt;08c3af6407c92010b340f03c7c1ed0ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_87df7f30075d6010b340f03c7c1ed0fb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-23 09:31:41&lt;/sys_updated_on&gt;&lt;title&gt;My Approvals&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"title": {
+		"value": "My Approvals",
+		"displayValue": "My Approvals"
+	},
+	"maximum_records_to_display": {
+		"value": "",
+		"displayValue": "-- None --"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=87df7f30075d6010b340f03c7c1ed0fb"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1144181507</payload_hash>
+        <record_name>My Approvals</record_name>
+        <reverted_from/>
+        <source>5cc3af6407c92010b340f03c7c1ed0b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-24 05:27:05</sys_created_on>
+        <sys_id>f1d5589507d5a010b340f03c7c1ed0d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176933705e90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-24 05:27:05</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>31d55895b4d5a0102bce98f71255aed8</update_guid>
+        <update_guid_history>31d55895b4d5a0102bce98f71255aed8:0,033488c1665d6010bf48f91d9b6a5bf8:1996634457,141188414b5d6010c3f5d9baffc428e8:1964985303,65f0c441c45d601071610a572a9a6249:-803301865,27ff7f30935d6010c08c601f4ba45a2d:1964985303,8fdf7f301b5d6010bacf1d485f44fafc:-414845889</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Approvals">f872096507d1e010b340f03c7c1ed06f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-25 03:20:27</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>d5644256197943908ee5c58aa4524fe4</sys_id>
+        <sys_metadata>87df7f30075d6010b340f03c7c1ed0fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Approvals</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_scope_delete display_value="">c2be16949d234586909491e1b4895dc4</sys_scope_delete>
+        <sys_update_name>sp_instance_87df7f30075d6010b340f03c7c1ed0fb</sys_update_name>
+        <sys_update_version display_value="sp_instance_87df7f30075d6010b340f03c7c1ed0fb">f1d5589507d5a010b340f03c7c1ed0d8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-25 03:20:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

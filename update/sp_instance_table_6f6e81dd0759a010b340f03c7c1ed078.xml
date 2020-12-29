@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>flow_no,flow_type_name,flow_status,flow_summary,regist_user_name,fun_id,recognition_user_id</field_list>
+        <filter table="x_528469_flow_sear_flow_mgnt_info">flow_status=13^recognition_user_idDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item display_value="作業完了" endquery="false" field="flow_status" goto="false" newquery="false" operator="=" or="false" value="13"/>
+            <item endquery="false" field="recognition_user_id" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        </filter>
+        <glyph>empty</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by>flow_no</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">966e81dd0759a010b340f03c7c1ed061</sp_column>
+        <sp_page/>
+        <sp_widget display_value="My Approval">e506d0d107d5a010b340f03c7c1ed080</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-24 09:34:20</sys_created_on>
+        <sys_id>6f6e81dd0759a010b340f03c7c1ed078</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>フロー承認</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sp_instance_table_6f6e81dd0759a010b340f03c7c1ed078</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-24 09:37:08</sys_updated_on>
+        <table>x_528469_flow_sear_flow_mgnt_info</table>
+        <title>フロー承認</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=6f6e81dd0759a010b340f03c7c1ed078"/>
+</record_update>

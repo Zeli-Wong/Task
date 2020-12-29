@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[function($location, $rootScope) {
+  /* widget controller */
+  var c = this;
+	
+	c.sendmail = function() {
+		c.server.get({
+			action: 'send',
+			Sysid: 'true'
+		})
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>sendmail</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>sendMail</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function(){
+	//发送邮件方法
+	function sendMail(input){
+		//gs.addInfoMessage("okokokokokokokok");
+		//实例化表flow_mgnt_info
+		var overtimeFlow = new GlideRecord('x_528469_flow_sear_flow_mgnt_info');
+		//实例化表notificationRecord
+		var notificationRecord = new GlideRecord('x_528469_flow_sear_info_records');
+		//查询所有记录
+		overtimeFlow.query();
+		notificationRecord.query();
+		//遍历每条记录
+		while(overtimeFlow.next()){
+			//将已经超时并且需要通知的记录晒出
+			if(overtimeFlow.schedule_hnum < overtimeFlow.real_hnum && overtimeFlow.timeout_reminder_flag == 0){
+				//初始化记录
+				notificationRecord.initialize();
+				
+				notificationRecord.setValue("flow_no",overtimeFlow.flow_no);
+				notificationRecord.setValue("regist_user_id",overtimeFlow.regist_user_id);
+				notificationRecord.setValue("regist_mail",overtimeFlow.regist_mail);
+				
+				//插入记录后后台会根据插入的记录发信通知
+				notificationRecord.insert();
+			}
+		}
+	}
+	
+	if(input){
+		if(input.action == 'send'){
+		sendMail(input);
+	}
+}	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-16 03:15:25</sys_created_on>
+        <sys_id>1bfae6e207496010b340f03c7c1ed041</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name>sendMail</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sp_widget_1bfae6e207496010b340f03c7c1ed041</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-24 02:40:57</sys_updated_on>
+        <template><![CDATA[<p style="color:#FFFFFF">タイムアウトしたflow作成者に送信します。</p>
+<button type="button" ng-click="c.sendmail()">送信</button>
+]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</application>
+        <file_path/>
+        <instance_id>2db8ff30dbf4378007072f17d496195c</instance_id>
+        <instance_name>dev80391</instance_name>
+        <name>sp_widget_1bfae6e207496010b340f03c7c1ed041</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($location, $rootScope) {
+  /* widget controller */
+  var c = this;
+	
+	c.sendmail = function() {
+		c.server.get({
+			action: 'send',
+			Sysid: 'true'
+		})
+	}
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id&gt;sendmail&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;sendMail&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function(){
+	//发送邮件方法
+	function sendMail(input){
+		//gs.addInfoMessage("okokokokokokokok");
+		//实例化表flow_mgnt_info
+		var overtimeFlow = new GlideRecord('x_528469_flow_sear_flow_mgnt_info');
+		//实例化表notificationRecord
+		var notificationRecord = new GlideRecord('x_528469_flow_sear_info_records');
+		//查询所有记录
+		overtimeFlow.query();
+		notificationRecord.query();
+		//遍历每条记录
+		while(overtimeFlow.next()){
+			//将已经超时并且需要通知的记录晒出
+			if(overtimeFlow.schedule_hnum &lt; overtimeFlow.real_hnum &amp;&amp; overtimeFlow.timeout_reminder_flag == 0){
+				//初始化记录
+				notificationRecord.initialize();
+				
+				notificationRecord.setValue("flow_no",overtimeFlow.flow_no);
+				notificationRecord.setValue("regist_user_id",overtimeFlow.regist_user_id);
+				notificationRecord.setValue("regist_mail",overtimeFlow.regist_mail);
+				
+				//插入记录后后台会根据插入的记录发信通知
+				notificationRecord.insert();
+			}
+		}
+	}
+	
+	if(input){
+		if(input.action == 'send'){
+		sendMail(input);
+	}
+}	
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-16 03:15:25&lt;/sys_created_on&gt;&lt;sys_id&gt;1bfae6e207496010b340f03c7c1ed041&lt;/sys_id&gt;&lt;sys_mod_count&gt;36&lt;/sys_mod_count&gt;&lt;sys_name&gt;sendMail&lt;/sys_name&gt;&lt;sys_package display_value="Flow Search" source="x_528469_flow_sear"&gt;08c3af6407c92010b340f03c7c1ed0ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Flow Search"&gt;08c3af6407c92010b340f03c7c1ed0ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_1bfae6e207496010b340f03c7c1ed041&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-24 02:40:57&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;p style="color:#FFFFFF"&gt;タイムアウトしたflow作成者に送信します。&lt;/p&gt;
+&lt;button type="button" ng-click="c.sendmail()"&gt;送信&lt;/button&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1724803564</payload_hash>
+        <record_name>sendMail</record_name>
+        <reverted_from/>
+        <source>5cc3af6407c92010b340f03c7c1ed0b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-24 02:40:57</sys_created_on>
+        <sys_id>d0df6fcd0755a010b340f03c7c1ed08b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176929eebfb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-24 02:40:57</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>1cdf6fcd7455a0103cea4a05ef3f448a</update_guid>
+        <update_guid_history>1cdf6fcd7455a0103cea4a05ef3f448a:-1724803564,0d0f2b8ddb55a010a1d266bc1837121d:-581172696,665e670d2255a010c0a925f5126b4e9d:1515793486,419da30d7855a010cd36d86bf954f369:1086247018,3b0a670de655a0104504f7c9c14bfb0c:-57111464,690aa30d6055a0107db39b5d9954b1e2:1947630456,72d9efc94d55a01042d3a54446583d79:-2133904584,b689a709c055a0104be9d7e6c1bb0da6:88156600,e1c867c9a955a0107302f68c25a0c799:1595069208,8ea5e385b155a0105c734d250e822c09:-1230152192,9674a785c955a010af59195631e64e9d:-1018232155,47146f45d955a0108fb01dd35df59274:854790053,fbc32f453655a0103df457b2e3e3a88f:-934424071,fa532f459e55a010e6c2061b7741ef01:-2082859590,d91fd341f955a010701cbd9451077225:-1154253267,66f6f7b8261d601045659e4d849b1f8f:1138349745,ba45b378041d6010dc35824f7b0b0ba1:337443991,d580b3b4391d60107c91c64bbc03d1f4:1138349745,2f00fb74071d601086f4f81c87c860aa:-1805347078,8b692ba2760d601075d15f8ac7e9ae55:337443991,27510b26b7896010d4dca60a4314d355:-1577975553,e29cfe62e08960103c87210b36b11d41:-1172438644,e7abb6223089601026c02c8ff7b84136:-198627159,1824362ea649601017ff481839bb5332:-784452637,2904322eff496010c112aebf3f16715a:308490142,19e3feea8449601035e4c3746221837b:1016516059,6493beea384960106ac1ab114f46fa33:751040305,e4637eea0949601044f6fbfec566fe69:-135572127,522336eac5496010f75d90fa4ad3c040:12563990,4590766a3f496010af80a051497e01ee:751040305,d5cf666a144960107ff8fe4db3781cf5:1866969887,ce4f226a1f496010f28d899f9187db90:-2109871803,802fae2a6b496010143c4fe5f19a3988:1153743626,c01fe62a5749601011060d9acfd8f72a:1581469669,6cfda6e62d496010bad9da425b6567be:-1602422941,49db6ee26c49601059f2a3c3fe9b3806:881297745,dffa22a69c496010616a7ff1791e6f75:1437723994</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sendMail">f539e8ed0751e010b340f03c7c1ed0ab</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-25 01:30:12</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>84d705670b894462ad53075ee6129844</sys_id>
+        <sys_metadata>1bfae6e207496010b340f03c7c1ed041</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sendMail</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_scope_delete display_value="">c2be16949d234586909491e1b4895dc4</sys_scope_delete>
+        <sys_update_name>sp_widget_1bfae6e207496010b340f03c7c1ed041</sys_update_name>
+        <sys_update_version display_value="sp_widget_1bfae6e207496010b340f03c7c1ed041">d0df6fcd0755a010b340f03c7c1ed08b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-25 01:30:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

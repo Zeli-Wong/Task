@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {				
+	/* widget controller */			
+	var c = this;			
+
+	c.approval = function(idx) {			
+		var id = c.data.flows[idx].sys_id;		
+		console.log('System ID: ' + id);		
+		c.data.flows[idx].flow_status = "承認済み";		
+		c.server.get({		
+			action: 'flowUpdated',	
+			sysID: id	
+		})		
+	}
+}				
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>h3.panel-title {
+  font-size:20px;
+  padding-top:5px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>my_approval</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>My Approval</name>
+        <option_schema>[{"hint":"Specify a title for the Notes List widget","name":"title","section":"other","default_value":"Notes","label":"Title","type":"string"},{"hint":"Select the maximum number of records to display","name":"maximum_records_to_display","section":"other","default_value":"5","label":"Maximum records to display","type":"choice","choices":[{"label":"2","value":"2"},{"label":"3","value":"3"},{"label":"5","value":"5"},{"label":"7","value":"7"},{"label":"11","value":"11"},{"label":"13","value":"13"},{"label":"17","value":"17"}]}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {				
+
+	data.flows = [];			
+	var flowGR = new GlideRecord('x_528469_flow_sear_flow_mgnt_info');			
+	flowGR.addQuery('recognition_user_id', gs.getUser().getID());			
+	flowGR.orderBy('flow_no');	
+	//flowGR.setLimit(options.maximum_records_to_display);			
+	flowGR.query();			
+	while (flowGR.next()) {			
+		var flowObj = {};		
+
+		$sp.getRecordDisplayValues(flowObj, flowGR, 'flow_no,flow_summary,flow_status,sys_id');		
+
+		flowObj.flow_status = flowGR.getDisplayValue('flow_status').slice(0,20);		
+
+		data.flows.push(flowObj);		
+
+	}			
+
+	if(input && input.sysID){			
+		var updateFlow = new GlideRecord('x_528469_flow_sear_flow_mgnt_info');		
+		if(updateFlow.get(input.sysID)){		
+			if(input.action == 'flowUpdated'){	
+				updateFlow.flow_status = "04";
+				updateFlow.update();
+				data.flow_status = updateFlow.getValue('flow_status').slice(0,20);
+			}	
+		}		
+	}			
+
+}				
+)();				
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-23 09:10:07</sys_created_on>
+        <sys_id>c74f7730075d6010b340f03c7c1ed070</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>My Approval</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sp_widget_c74f7730075d6010b340f03c7c1ed070</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-23 09:39:22</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading clearfix">
+    <h3 class="panel-title pull-left">
+      {{::c.options.title}}
+    </h3>
+  </div>
+  <div class="list-group">
+    <a class="list-group-item" ng-repeat="flow in data.flows">
+      <h4 class="list-group-item-heading" style="background-color: lightgray; padding:2px 3px;">
+        {{flow.flow_no}}
+      </h4>
+      <p class="list-group-item-text" style="color: darkorange;">
+        {{flow.flow_status}}
+      </p>
+      <p class="list-group-item-text">
+        {{flow.flow_summary}}
+      </p>
+      <div ng-if="flow.flow_status == '作業完了'" class="button">
+        <button id="flow_approval" name="approval" ng-click="c.approval($index)" style="background-color: #8fbc8f; color: white; margin-top: 5px; padding: 2px 5px;">
+          Approval
+        </button>
+      </div>
+    </a>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</application>
+        <file_path/>
+        <instance_id>2db8ff30dbf4378007072f17d496195c</instance_id>
+        <instance_name>dev80391</instance_name>
+        <name>sp_widget_c74f7730075d6010b340f03c7c1ed070</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function() {				
+	/* widget controller */			
+	var c = this;			
+
+	c.approval = function(idx) {			
+		var id = c.data.flows[idx].sys_id;		
+		console.log('System ID: ' + id);		
+		c.data.flows[idx].flow_status = "承認済み";		
+		c.server.get({		
+			action: 'flowUpdated',	
+			sysID: id	
+		})		
+	}
+}				
+]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;h3.panel-title {
+  font-size:20px;
+  padding-top:5px;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id&gt;my_approval&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;My Approval&lt;/name&gt;&lt;option_schema&gt;[{"hint":"Specify a title for the Notes List widget","name":"title","section":"other","default_value":"Notes","label":"Title","type":"string"},{"hint":"Select the maximum number of records to display","name":"maximum_records_to_display","section":"other","default_value":"5","label":"Maximum records to display","type":"choice","choices":[{"label":"2","value":"2"},{"label":"3","value":"3"},{"label":"5","value":"5"},{"label":"7","value":"7"},{"label":"11","value":"11"},{"label":"13","value":"13"},{"label":"17","value":"17"}]}]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {				
+
+	data.flows = [];			
+	var flowGR = new GlideRecord('x_528469_flow_sear_flow_mgnt_info');			
+	flowGR.addQuery('recognition_user_id', gs.getUser().getID());			
+	flowGR.orderBy('flow_no');	
+	//flowGR.setLimit(options.maximum_records_to_display);			
+	flowGR.query();			
+	while (flowGR.next()) {			
+		var flowObj = {};		
+
+		$sp.getRecordDisplayValues(flowObj, flowGR, 'flow_no,flow_summary,flow_status,sys_id');		
+
+		flowObj.flow_status = flowGR.getDisplayValue('flow_status').slice(0,20);		
+
+		data.flows.push(flowObj);		
+
+	}			
+
+	if(input &amp;&amp; input.sysID){			
+		var updateFlow = new GlideRecord('x_528469_flow_sear_flow_mgnt_info');		
+		if(updateFlow.get(input.sysID)){		
+			if(input.action == 'flowUpdated'){	
+				updateFlow.flow_status = "04";
+				updateFlow.update();
+				data.flow_status = updateFlow.getValue('flow_status').slice(0,20);
+			}	
+		}		
+	}			
+
+}				
+)();				
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-23 09:10:07&lt;/sys_created_on&gt;&lt;sys_id&gt;c74f7730075d6010b340f03c7c1ed070&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Approval&lt;/sys_name&gt;&lt;sys_package display_value="Flow Search" source="x_528469_flow_sear"&gt;08c3af6407c92010b340f03c7c1ed0ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Flow Search"&gt;08c3af6407c92010b340f03c7c1ed0ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_c74f7730075d6010b340f03c7c1ed070&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-23 09:39:22&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="panel panel-default"&gt;
+  &lt;div class="panel-heading clearfix"&gt;
+    &lt;h3 class="panel-title pull-left"&gt;
+      {{::c.options.title}}
+    &lt;/h3&gt;
+  &lt;/div&gt;
+  &lt;div class="list-group"&gt;
+    &lt;a class="list-group-item" ng-repeat="flow in data.flows"&gt;
+      &lt;h4 class="list-group-item-heading" style="background-color: lightgray; padding:2px 3px;"&gt;
+        {{flow.flow_no}}
+      &lt;/h4&gt;
+      &lt;p class="list-group-item-text" style="color: darkorange;"&gt;
+        {{flow.flow_status}}
+      &lt;/p&gt;
+      &lt;p class="list-group-item-text"&gt;
+        {{flow.flow_summary}}
+      &lt;/p&gt;
+      &lt;div ng-if="flow.flow_status == '作業完了'" class="button"&gt;
+        &lt;button id="flow_approval" name="approval" ng-click="c.approval($index)" style="background-color: #8fbc8f; color: white; margin-top: 5px; padding: 2px 5px;"&gt;
+          Approval
+        &lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2036805898</payload_hash>
+        <record_name>My Approval</record_name>
+        <reverted_from/>
+        <source>5cc3af6407c92010b340f03c7c1ed0b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-23 09:39:22</sys_created_on>
+        <sys_id>b3f54c05075d6010b340f03c7c1ed0d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1768ef7a4220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-23 09:39:22</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>fbf54c05be5d6010d06047f1945b46d0</update_guid>
+        <update_guid_history>fbf54c05be5d6010d06047f1945b46d0:2036805898,f6a44cc15e5d60107cb93e90eaba2f5e:750464554,bcf308c1b65d6010953d5433f8cb71df:65161738,f7d3c4c1475d60101ab36bda7ad21ff2:723375525,dcd3c4c1895d6010de946815856c0721:-574248075,c8a2cc410e5d60106d0666b411a4b9d6:-1702254816,19020481185d6010623aa21cc3327389:365178507,d6b188419e5d6010efb6583fc9345062:444402609,299f7b30c95d6010ee3bb99af86892ef:-1402476896,8f4f7730fd5d60107391d259d6f5aa71:753588562</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Approval">b5d5589507d5a010b340f03c7c1ed0d9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-24 05:27:05</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>3e557091c60e470f829b489f9064c691</sys_id>
+        <sys_metadata>c74f7730075d6010b340f03c7c1ed070</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Approval</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_scope_delete display_value="">c2be16949d234586909491e1b4895dc4</sys_scope_delete>
+        <sys_update_name>sp_widget_c74f7730075d6010b340f03c7c1ed070</sys_update_name>
+        <sys_update_version display_value="sp_widget_c74f7730075d6010b340f03c7c1ed070">b3f54c05075d6010b340f03c7c1ed0d1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-24 05:27:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

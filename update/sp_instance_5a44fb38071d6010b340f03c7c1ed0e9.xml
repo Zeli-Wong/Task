@@ -11,7 +11,7 @@
         <short_description/>
         <size>md</size>
         <sp_column display_value="1">b8d2198607812010b340f03c7c1ed0aa</sp_column>
-        <sp_widget display_value="sendMail">1bfae6e207496010b340f03c7c1ed041</sp_widget>
+        <sp_widget/>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-23 08:22:00</sys_created_on>

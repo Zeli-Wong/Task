@@ -10,20 +10,20 @@
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">eca6d3a207c96010b340f03c7c1ed0fb</sp_column>
+        <sp_column display_value="1">ff56ade90715e010b340f03c7c1ed0df</sp_column>
         <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-16 06:26:12</sys_created_on>
         <sys_id>fda693a207c96010b340f03c7c1ed0f4</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>フロー検索</sys_name>
         <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
         <sys_update_name>sp_instance_fda693a207c96010b340f03c7c1ed0f4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-16 08:28:29</sys_updated_on>
+        <sys_updated_on>2020-12-25 06:07:07</sys_updated_on>
         <title>フロー検索</title>
         <url/>
         <widget_parameters><![CDATA[{

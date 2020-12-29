@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a764f3aa070d6010b340f03c7c1ed0b0</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-16 08:14:54</sys_created_on>
+        <sys_id>068f6fa6070d6010b340f03c7c1ed084</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sp_instance_068f6fa6070d6010b340f03c7c1ed084</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-16 08:36:41</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<h2 style=\"background-color: white;\">${Flow Reports}</h2><p style=\"background-color: white;>&nbsp;<br></p>",
+		"displayValue": "<h2>${Flow Reports}</h2>\n<p>&nbsp;</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=068f6fa6070d6010b340f03c7c1ed084"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</application>
+        <file_path/>
+        <instance_id>2db8ff30dbf4378007072f17d496195c</instance_id>
+        <instance_name>dev80391</instance_name>
+        <name>sp_instance_068f6fa6070d6010b340f03c7c1ed084</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;a764f3aa070d6010b340f03c7c1ed0b0&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-16 08:14:54&lt;/sys_created_on&gt;&lt;sys_id&gt;068f6fa6070d6010b340f03c7c1ed084&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Flow Search" source="x_528469_flow_sear"&gt;08c3af6407c92010b340f03c7c1ed0ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Flow Search"&gt;08c3af6407c92010b340f03c7c1ed0ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_068f6fa6070d6010b340f03c7c1ed084&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-16 08:36:41&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;h2 style=\"background-color: white;\"&gt;${Flow Reports}&lt;/h2&gt;&lt;p style=\"background-color: white;&gt;&amp;nbsp;&lt;br&gt;&lt;/p&gt;",
+		"displayValue": "&lt;h2&gt;${Flow Reports}&lt;/h2&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=068f6fa6070d6010b340f03c7c1ed084"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>809346884</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>5cc3af6407c92010b340f03c7c1ed0b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-16 08:36:42</sys_created_on>
+        <sys_id>9184bbaa070d6010b340f03c7c1ed0bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1766ab1bd9d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-16 08:36:42</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>d984bbaa030d60103a832ed3cb4f43bb</update_guid>
+        <update_guid_history>d984bbaa030d60103a832ed3cb4f43bb:809346884,4484bbaa460d6010e2ce7d131a258d96:1807241169,6d747baaa30d60108b775b13963eeb58:7916720,d1d37b6aaa0d6010173dfc0a4553e675:1807241169,ff937f6a5f0d6010c7c5523cfbd2e6e8:2122290245,6210f7e6960d60105883bfcdb3fdbaea:-986634049,26dfa7e6480d60106c01f94212efd376:1968505262,fcaf27e65e0d6010c9a171700c73a427:1534804521,ca8f6fa6280d60107ddfd560f8ce8585:-319994613</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">2c43f0690791e010b340f03c7c1ed0df</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-25 02:14:05</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>26587c28c1ce44ecb4a5e3b59010eb10</sys_id>
+        <sys_metadata>068f6fa6070d6010b340f03c7c1ed084</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_scope_delete display_value="">c2be16949d234586909491e1b4895dc4</sys_scope_delete>
+        <sys_update_name>sp_instance_068f6fa6070d6010b340f03c7c1ed084</sys_update_name>
+        <sys_update_version display_value="sp_instance_068f6fa6070d6010b340f03c7c1ed084">9184bbaa070d6010b340f03c7c1ed0bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-25 02:14:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
