@@ -17,14 +17,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_528469_flow_sear._user</roles>
+        <roles>x_528469_flow_sear._user,admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-10 02:40:27</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9879ef60074d2010b340f03c7c1ed013</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Flow Records</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
         <sys_update_name>sys_app_module_9879ef60074d2010b340f03c7c1ed013</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-10 03:09:53</sys_updated_on>
+        <sys_updated_on>2020-12-31 01:19:50</sys_updated_on>
         <timeline_page/>
         <title>Flow Records</title>
         <uncancelable>false</uncancelable>

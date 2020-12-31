@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
+    <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
+        <item_stream display_value="フロー管理情報（更新、削除、新規） Item Stream">391b05f62f992410e28143e72799b6fe</item_stream>
+        <segment display_value="Item Stream Segment">b91b45f62f992410e28143e72799b61d</segment>
+        <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-29 01:10:37</sys_created_on>
+        <sys_id>f11b45f62f992410e28143e72799b620</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_segment_f11b45f62f992410e28143e72799b620</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-29 01:10:37</sys_updated_on>
+    </sys_sg_item_stream_m2m_segment>
+</record_update>

@@ -201,7 +201,7 @@
         <update_guid_history>833ebbfc151d6010cca8a85c3aa4d701:-1113905099,35fdfbbc671d6010d959c5ce6ef53d75:273662099,02ad37bc721d60104d2e3e66ebeb9774:754528241,1ffc3f7c211d6010fe55451f90a66a29:1384386424</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="My Approvals">30bffb30075d6010b340f03c7c1ed0d9</sys_audit_delete>
+        <sys_audit_delete display_value="">30bffb30075d6010b340f03c7c1ed0d9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-23 09:11:52</sys_created_on>

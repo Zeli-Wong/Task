@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item/>
+        <interleaved_field/>
+        <name>更新フロー Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-28 03:34:14</sys_created_on>
+        <sys_id>3752ac262fdde010e28143e72799b621</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>更新フロー Item Stream</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sys_sg_item_stream_3752ac262fdde010e28143e72799b621</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-28 03:34:14</sys_updated_on>
+        <table>x_528469_flow_sear_flow_mgnt_info</table>
+    </sys_sg_item_stream>
+</record_update>

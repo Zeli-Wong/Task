@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description>All of my open Flow records</description>
+        <group_by/>
+        <name>更新XX</name>
+        <query_condition/>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-28 03:15:42</sys_created_on>
+        <sys_id>142e10a22fdde010e28143e72799b6d8</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>更新XX</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sys_sg_data_item_142e10a22fdde010e28143e72799b6d8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-29 07:45:40</sys_updated_on>
+        <table>x_528469_flow_sear_flow_mgnt_info</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="DELETE" query="documentkey=142e10a22fdde010e28143e72799b6d8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</application>
+        <file_path/>
+        <instance_id>c89eea7edbedb7409df22f17d496198f</instance_id>
+        <instance_name>dev86843</instance_name>
+        <name>sys_sg_data_item_142e10a22fdde010e28143e72799b6d8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description>All of my open Flow records</description><group_by/><name>更新XX</name><query_condition/><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-28 03:15:42</sys_created_on><sys_id>142e10a22fdde010e28143e72799b6d8</sys_id><sys_mod_count>7</sys_mod_count><sys_name>更新XX</sys_name><sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package><sys_policy/><sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope><sys_update_name>sys_sg_data_item_142e10a22fdde010e28143e72799b6d8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-29 07:45:40</sys_updated_on><table>x_528469_flow_sear_flow_mgnt_info</table></sys_sg_data_item><sys_translated_text action="delete_multiple" query="documentkey=142e10a22fdde010e28143e72799b6d8"/></record_update>]]></payload>
+        <payload_hash>-2147107140</payload_hash>
+        <record_name>更新XX</record_name>
+        <reverted_from/>
+        <source>63b86d522f24e010e28143e72799b663</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-29 07:45:40</sys_created_on>
+        <sys_id>7c85ae322f9d2410e28143e72799b681</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176ad75b33d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-29 07:45:40</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>b485ae32849d24103dbb104c65699681</update_guid>
+        <update_guid_history>b485ae32849d24103dbb104c65699681:-2147107140,18fa552aff512410043f766e1cc6b073:1908685564,4ec3c92ada112410ae29d51e80e77aae:-448936831,942e10a2f4dde0103fe54fa6053444da:-946336836</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-30 01:20:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>162089c6b15a4951b54295b55f3907f1</sys_id>
+        <sys_metadata>142e10a22fdde010e28143e72799b6d8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>更新XX</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_scope_delete display_value="">c2be16949d234586909491e1b4895dc4</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_142e10a22fdde010e28143e72799b6d8</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_142e10a22fdde010e28143e72799b6d8">7c85ae322f9d2410e28143e72799b681</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-30 01:20:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

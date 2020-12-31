@@ -677,7 +677,7 @@ IMG.img-sm {
         <update_guid_history>5a1619c6f681201088c3d4c7560f08a7:298109945,acd21d8287812010c3b26f97465ce216:2135374695</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Search Flow">9a34294207c12010b340f03c7c1ed0ac</sys_audit_delete>
+        <sys_audit_delete display_value="">9a34294207c12010b340f03c7c1ed0ac</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-14 08:49:17</sys_created_on>

@@ -1699,7 +1699,7 @@ tbody tr:last-child {
         <update_guid_history>df0ffcdff741e01018107efe44cce3e7:1302880007,0e05f05bee41e0109e33573c9178e259:377645702,97f4b89bdd41e010780540a596cd74a3:1292881235,8774b05b8241e010f0bc16803a991604:-1117198383,d2527c1b3b41e0103ce86e5b79e06b5a:-284014800</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Search Table">283645570781e010b340f03c7c1ed0e9</sys_audit_delete>
+        <sys_audit_delete display_value="">283645570781e010b340f03c7c1ed0e9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-18 03:50:30</sys_created_on>

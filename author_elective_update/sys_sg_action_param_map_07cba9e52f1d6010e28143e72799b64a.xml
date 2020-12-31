@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="DELETE">
+        <button display_value="Update Flow Info">6e4df4e92f996010e28143e72799b64b</button>
+        <item_parameter display_value="UPTATE_FLOW_TYPE_CODE">b770b8e12f996010e28143e72799b690</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-25 06:22:50</sys_created_on>
+        <sys_id>07cba9e52f1d6010e28143e72799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b770b8e12f996010e28143e72799b690</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_07cba9e52f1d6010e28143e72799b64a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-25 06:22:50</sys_updated_on>
+        <ui_parameter display_value="FLOW_TYPE_CODE">fe9b69e52f1d6010e28143e72799b6ea</ui_parameter>
+    </sys_sg_action_param_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</application>
+        <file_path/>
+        <instance_id>c89eea7edbedb7409df22f17d496198f</instance_id>
+        <instance_name>dev86843</instance_name>
+        <name>sys_sg_action_param_map_07cba9e52f1d6010e28143e72799b64a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map"><sys_sg_action_param_map action="INSERT_OR_UPDATE"><button display_value="Update Flow Info">6e4df4e92f996010e28143e72799b64b</button><item_parameter display_value="UPTATE_FLOW_TYPE_CODE">b770b8e12f996010e28143e72799b690</item_parameter><sys_class_name>sys_sg_action_param_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-25 06:22:50</sys_created_on><sys_id>07cba9e52f1d6010e28143e72799b64a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>b770b8e12f996010e28143e72799b690</sys_name><sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package><sys_policy/><sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope><sys_update_name>sys_sg_action_param_map_07cba9e52f1d6010e28143e72799b64a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-25 06:22:50</sys_updated_on><ui_parameter display_value="FLOW_TYPE_CODE">fe9b69e52f1d6010e28143e72799b6ea</ui_parameter></sys_sg_action_param_map></record_update>]]></payload>
+        <payload_hash>122285155</payload_hash>
+        <record_name>b770b8e12f996010e28143e72799b690</record_name>
+        <reverted_from/>
+        <source>05ee9fc12f5d2010e28143e72799b63d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-25 06:22:50</sys_created_on>
+        <sys_id>283ca9e52f1d6010e28143e72799b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17698906e400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-25 06:22:50</sys_updated_on>
+        <type>Action parameters mapping</type>
+        <update_guid>603ca9e56c1d60108aff74ee46cdd196</update_guid>
+        <update_guid_history>603ca9e56c1d60108aff74ee46cdd196:122285155</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-29 07:44:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_action_param_map">sys_sg_action_param_map</sys_db_object>
+        <sys_id>988781ef28604760b00c095a5f997790</sys_id>
+        <sys_metadata>07cba9e52f1d6010e28143e72799b64a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b770b8e12f996010e28143e72799b690</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_scope_delete display_value="">c2be16949d234586909491e1b4895dc4</sys_scope_delete>
+        <sys_update_name>sys_sg_action_param_map_07cba9e52f1d6010e28143e72799b64a</sys_update_name>
+        <sys_update_version display_value="sys_sg_action_param_map_07cba9e52f1d6010e28143e72799b64a">283ca9e52f1d6010e28143e72799b696</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-29 07:44:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

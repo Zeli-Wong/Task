@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit(flow_status)">cda9ea032f196410e28143e72799b63a</button>
+        <item_parameter display_value="flow_status">e269eecf2fd56410e28143e72799b60d</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-30 02:45:29</sys_created_on>
+        <sys_id>ba5aae032f196410e28143e72799b606</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e269eecf2fd56410e28143e72799b60d</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_ba5aae032f196410e28143e72799b606</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-30 02:45:29</sys_updated_on>
+        <ui_parameter display_value="flow_status">6e2a2a032f196410e28143e72799b66d</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

@@ -63,7 +63,7 @@
         <update_guid_history>623aafa27d0d6010c56edc8102fa6ce6:-187083180,62801bae078960107c9719172c7e94ad:1036655410,c6309f6edd896010306a410011d41299:697402563,f2ef8f6e50896010d4bb18596a93cc8c:-198049324,7c9e076ea4896010bcbb1ef7867bf9c2:-1952015924</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Flow工数一覧">73db6fb0071d6010b340f03c7c1ed091</sys_audit_delete>
+        <sys_audit_delete display_value="">73db6fb0071d6010b340f03c7c1ed091</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-23 07:45:14</sys_created_on>

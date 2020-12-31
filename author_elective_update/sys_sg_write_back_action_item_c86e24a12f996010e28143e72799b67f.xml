@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="DELETE">
+        <description>Action Item to update the Flow field value on a Flow record.</description>
+        <execution_script/>
+        <name>Update Flow Info</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-25 01:57:58</sys_created_on>
+        <sys_id>c86e24a12f996010e28143e72799b67f</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Update Flow Info</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_c86e24a12f996010e28143e72799b67f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-29 02:11:36</sys_updated_on>
+        <table>x_528469_flow_sear_flow_mgnt_info</table>
+        <template>flow_status={{UPDATE_FLOW_STATUS}}^flow_type_code={{UPTATE_FLOW_TYPE_CODE}}^flow_type_name={{UPTATE_FLOW_TYPE_NAME}}^flow_summary={{UPDATE_FLOW_SUMMARY}}^end_date={{UPDATE_END_DATE}}^fun_id={{UPDATE_FUN_ID}}^regist_user_id={{UPDATE_REGIST_USER_ID}}^regist_user_name={{UPDATE_REGIST_USER_NAME	}}^schedule_hnum={{UPDATE_SCHEDULE_HNUM}}^real_hnum={{UPDATE_REAL_HNUM}}^regist_mail={{UPDATE_REGIST_MAIL}}^timeout_reminder_flag={{UPDATE_TIMEOUT_REMINDER_FLAG}}^flow_no={{UPDATE_FLOW_NO}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="DELETE" query="documentkey=c86e24a12f996010e28143e72799b67f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</application>
+        <file_path/>
+        <instance_id>c89eea7edbedb7409df22f17d496198f</instance_id>
+        <instance_name>dev86843</instance_name>
+        <name>sys_sg_write_back_action_item_c86e24a12f996010e28143e72799b67f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item"><sys_sg_write_back_action_item action="INSERT_OR_UPDATE"><description>Action Item to update the Flow field value on a Flow record.</description><execution_script/><name>Update Flow Info</name><query_condition/><sys_class_name>sys_sg_write_back_action_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-25 01:57:58</sys_created_on><sys_id>c86e24a12f996010e28143e72799b67f</sys_id><sys_mod_count>10</sys_mod_count><sys_name>Update Flow Info</sys_name><sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package><sys_policy/><sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope><sys_update_name>sys_sg_write_back_action_item_c86e24a12f996010e28143e72799b67f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-29 02:11:36</sys_updated_on><table>x_528469_flow_sear_flow_mgnt_info</table><template>flow_status={{UPDATE_FLOW_STATUS}}^flow_type_code={{UPTATE_FLOW_TYPE_CODE}}^flow_type_name={{UPTATE_FLOW_TYPE_NAME}}^flow_summary={{UPDATE_FLOW_SUMMARY}}^end_date={{UPDATE_END_DATE}}^fun_id={{UPDATE_FUN_ID}}^regist_user_id={{UPDATE_REGIST_USER_ID}}^regist_user_name={{UPDATE_REGIST_USER_NAME	}}^schedule_hnum={{UPDATE_SCHEDULE_HNUM}}^real_hnum={{UPDATE_REAL_HNUM}}^regist_mail={{UPDATE_REGIST_MAIL}}^timeout_reminder_flag={{UPDATE_TIMEOUT_REMINDER_FLAG}}^flow_no={{UPDATE_FLOW_NO}}^EQ</template><type>update</type><use_current_record_as_condition>true</use_current_record_as_condition></sys_sg_write_back_action_item><sys_translated_text action="delete_multiple" query="documentkey=c86e24a12f996010e28143e72799b67f"/></record_update>]]></payload>
+        <payload_hash>-237674619</payload_hash>
+        <record_name>Update Flow Info</record_name>
+        <reverted_from/>
+        <source>05ee9fc12f5d2010e28143e72799b63d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-29 02:11:36</sys_created_on>
+        <sys_id>d70991322fd92410e28143e72799b60f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176ac43da440000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-29 02:11:36</sys_updated_on>
+        <type>Action item</type>
+        <update_guid>13099132a1d92410e8ebd4b6e1ad5f0f</update_guid>
+        <update_guid_history>13099132a1d92410e8ebd4b6e1ad5f0f:-237674619,ce8151facd992410def2471b0f11812f:-281528508,093151fad199241032f1fbd31545ece5:-555786632,6d9f01bab29924100ac903e10d753fd9:-1237017166,539e457a6e992410a6d308b627211c70:-281528508,125e893ad3992410f72f60c93a596353:2140659919,c934bc658799601099411bb691945c01:-281528508,2424b0a554996010ae83cf13d16fa07d:382886193,ba933465eb9960100b1f9cb5fab49d0d:-352288439,d850b8e13e996010bbc59a794f5a2344:364508150,2c9fa0e14499601041055f47abc9ee3f:284279226</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-29 07:44:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_write_back_action_item">sys_sg_write_back_action_item</sys_db_object>
+        <sys_id>3cf32ba5604c48c7940b75fbd1ae8421</sys_id>
+        <sys_metadata>c86e24a12f996010e28143e72799b67f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Flow Info</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_scope_delete display_value="">c2be16949d234586909491e1b4895dc4</sys_scope_delete>
+        <sys_update_name>sys_sg_write_back_action_item_c86e24a12f996010e28143e72799b67f</sys_update_name>
+        <sys_update_version display_value="sys_sg_write_back_action_item_c86e24a12f996010e28143e72799b67f">d70991322fd92410e28143e72799b60f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-29 07:44:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="DELETE">
+        <button display_value="Update Flow Info">6e4df4e92f996010e28143e72799b64b</button>
+        <button_parent_table/>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>source_field</default_value_type>
+        <field_name>recognition_user_id</field_name>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>text</input_type>
+        <mandatory>true</mandatory>
+        <multi_select>false</multi_select>
+        <name>フロー分類コード</name>
+        <order/>
+        <parameter_type>button</parameter_type>
+        <placeholder/>
+        <screen/>
+        <search_type>starts_with</search_type>
+        <source_field/>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-25 06:20:33</sys_created_on>
+        <sys_id>fe9b69e52f1d6010e28143e72799b6ea</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>フロー分類コード</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_fe9b69e52f1d6010e28143e72799b6ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-28 09:03:32</sys_updated_on>
+        <table_name>x_528469_flow_sear_flow_mgnt_info</table_name>
+    </sys_sg_ui_parameter>
+    <sys_translated_text action="DELETE" query="documentkey=fe9b69e52f1d6010e28143e72799b6ea"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</application>
+        <file_path/>
+        <instance_id>c89eea7edbedb7409df22f17d496198f</instance_id>
+        <instance_name>dev86843</instance_name>
+        <name>sys_sg_ui_parameter_fe9b69e52f1d6010e28143e72799b6ea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter"><sys_sg_ui_parameter action="INSERT_OR_UPDATE"><button display_value="Update Flow Info">6e4df4e92f996010e28143e72799b64b</button><button_parent_table/><carried>false</carried><constant/><default_value/><default_value_type>source_field</default_value_type><field_name>recognition_user_id</field_name><input_source>user</input_source><input_style>inline</input_style><input_type>text</input_type><mandatory>true</mandatory><multi_select>false</multi_select><name>フロー分類コード</name><order/><parameter_type>button</parameter_type><placeholder/><screen/><search_type>starts_with</search_type><source_field/><sys_class_name>sys_sg_ui_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-25 06:20:33</sys_created_on><sys_id>fe9b69e52f1d6010e28143e72799b6ea</sys_id><sys_mod_count>4</sys_mod_count><sys_name>フロー分類コード</sys_name><sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package><sys_policy/><sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope><sys_update_name>sys_sg_ui_parameter_fe9b69e52f1d6010e28143e72799b6ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-28 09:03:32</sys_updated_on><table_name>x_528469_flow_sear_flow_mgnt_info</table_name></sys_sg_ui_parameter><sys_translated_text action="delete_multiple" query="documentkey=fe9b69e52f1d6010e28143e72799b6ea"/></record_update>]]></payload>
+        <payload_hash>-894715146</payload_hash>
+        <record_name>フロー分類コード</record_name>
+        <reverted_from/>
+        <source>05ee9fc12f5d2010e28143e72799b63d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-28 09:03:32</sys_created_on>
+        <sys_id>7bbdad262f912410e28143e72799b6ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176a896a2520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-28 09:03:32</sys_updated_on>
+        <type>UI parameter</type>
+        <update_guid>b3bdad269a912410030a2c50d54a68ef</update_guid>
+        <update_guid_history>b3bdad269a912410030a2c50d54a68ef:-894715146,814b61e25091241055de756fa28843c0:2045960250,f19d4deeda1124109f59c3b85edf4e41:2090262786,3dd6cdaab3112410f24509e331b3adbd:1042794468,7aab29e5941d601054a22176d8868c1d:-155907234</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-30 01:20:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_ui_parameter">sys_sg_ui_parameter</sys_db_object>
+        <sys_id>4d0163be61404b1a8489d054d31a63a1</sys_id>
+        <sys_metadata>fe9b69e52f1d6010e28143e72799b6ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>フロー分類コード</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_scope_delete display_value="">c2be16949d234586909491e1b4895dc4</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_parameter_fe9b69e52f1d6010e28143e72799b6ea</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_parameter_fe9b69e52f1d6010e28143e72799b6ea">7bbdad262f912410e28143e72799b6ef</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-30 01:20:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

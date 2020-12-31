@@ -51,7 +51,7 @@
         <update_guid_history>9b132d023bc120108285ef0c3de7e4c4:303229173,96a0e1ce36812010bc109760a8d954e5:1202466262</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Flow Search Homepage - Container 1">2b136d0207c12010b340f03c7c1ed010</sys_audit_delete>
+        <sys_audit_delete display_value="">2b136d0207c12010b340f03c7c1ed010</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-14 08:44:27</sys_created_on>

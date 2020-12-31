@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="DELETE">
+        <data_item_field_name>recognition_user_id</data_item_field_name>
+        <description_text/>
+        <description_text_field/>
+        <description_text_type/>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>120</order>
+        <record_id_field/>
+        <screen display_value="Details">a7f2eb092f5d2010e28143e72799b657</screen>
+        <screen_data_item_table>x_528469_flow_sear_flow_mgnt_info</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-24 01:46:41</sys_created_on>
+        <sys_id>6163ef092f5d2010e28143e72799b68f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>recognition_user_id</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sys_sg_screen_field_6163ef092f5d2010e28143e72799b68f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-24 01:46:41</sys_updated_on>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+    <sys_translated_text action="DELETE" query="documentkey=6163ef092f5d2010e28143e72799b68f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</application>
+        <file_path/>
+        <instance_id>c89eea7edbedb7409df22f17d496198f</instance_id>
+        <instance_name>dev86843</instance_name>
+        <name>sys_sg_screen_field_6163ef092f5d2010e28143e72799b68f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field"><sys_sg_screen_field action="INSERT_OR_UPDATE"><data_item_field_name>recognition_user_id</data_item_field_name><description_text/><description_text_field/><description_text_type/><field_name/><hidden>false</hidden><order>120</order><record_id_field/><screen display_value="Details">a7f2eb092f5d2010e28143e72799b657</screen><screen_data_item_table>x_528469_flow_sear_flow_mgnt_info</screen_data_item_table><sys_class_name>sys_sg_screen_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-24 01:46:41</sys_created_on><sys_id>6163ef092f5d2010e28143e72799b68f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>recognition_user_id</sys_name><sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package><sys_policy/><sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope><sys_update_name>sys_sg_screen_field_6163ef092f5d2010e28143e72799b68f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-24 01:46:41</sys_updated_on><type>auto</type><value_only>false</value_only></sys_sg_screen_field><sys_translated_text action="delete_multiple" query="documentkey=6163ef092f5d2010e28143e72799b68f"/></record_update>]]></payload>
+        <payload_hash>1559145681</payload_hash>
+        <record_name>recognition_user_id</record_name>
+        <reverted_from/>
+        <source>05ee9fc12f5d2010e28143e72799b63d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-24 01:46:41</sys_created_on>
+        <sys_id>ed63ef092f5d2010e28143e72799b690</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176926d3ee90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-24 01:46:41</sys_updated_on>
+        <type>Screen fields</type>
+        <update_guid>2963ef09095d201075ec193cda454f90</update_guid>
+        <update_guid_history>2963ef09095d201075ec193cda454f90:1559145681</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-30 02:13:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_screen_field">sys_sg_screen_field</sys_db_object>
+        <sys_id>4c1b4b45424d4304b06ebf65faeb1789</sys_id>
+        <sys_metadata>6163ef092f5d2010e28143e72799b68f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>recognition_user_id</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_scope_delete display_value="">c2be16949d234586909491e1b4895dc4</sys_scope_delete>
+        <sys_update_name>sys_sg_screen_field_6163ef092f5d2010e28143e72799b68f</sys_update_name>
+        <sys_update_version display_value="sys_sg_screen_field_6163ef092f5d2010e28143e72799b68f">ed63ef092f5d2010e28143e72799b690</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-30 02:13:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

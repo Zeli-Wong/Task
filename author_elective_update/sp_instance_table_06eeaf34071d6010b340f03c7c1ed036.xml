@@ -63,7 +63,7 @@
         <update_guid_history>7f8fe374ca1d6010e8f4726f4ff3cee7:510148936,cf4f6f34dc1d6010520a435fef5e32e6:1554091484,8aeeaf34721d60108b8bee8fa24b3d37:-1952015924</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="タイムアウトFlow情報">13c9f73c071d6010b340f03c7c1ed0ae</sys_audit_delete>
+        <sys_audit_delete display_value="">13c9f73c071d6010b340f03c7c1ed0ae</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-23 08:46:06</sys_created_on>

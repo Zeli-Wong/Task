@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <fetch_type>not_required</fetch_type>
+        <hide_filters>false</hide_filters>
+        <icon display_value="By Flow status Icon">cf10c0ae2f5de010e28143e72799b66f</icon>
+        <item_view display_value="By Flow status Header Item View">8310c0ae2f5de010e28143e72799b672</item_view>
+        <name>フロー状態検索</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-28 01:04:33</sys_created_on>
+        <sys_id>4710c0ae2f5de010e28143e72799b674</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>フロー状態検索</sys_name>
+        <sys_package display_value="Flow Search" source="x_528469_flow_sear">08c3af6407c92010b340f03c7c1ed0ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Search">08c3af6407c92010b340f03c7c1ed0ae</sys_scope>
+        <sys_update_name>sys_sg_form_screen_4710c0ae2f5de010e28143e72799b674</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-29 01:50:19</sys_updated_on>
+        <table>x_528469_flow_sear_flow_mgnt_info</table>
+    </sys_sg_form_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=4710c0ae2f5de010e28143e72799b674"/>
+</record_update>
